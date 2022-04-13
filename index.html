@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+
+</head>
+<body>
+<main>
+  <section class="container">
+      <header>
+        <h1>Simple, traffic-based pricing</h1>
+        <p class="small-lead">Sign-up for our 30-day trial. No credit card required. </p>
+      </header>
+      <div class="silder__card">
+        <div class="slider__info">
+          <p class="page-views"><span class="pageViewValue">100K</span> PAGEVIEWS</p>
+          <h3 class="payment">$<span class="payment-value">16.00</span><span class="small">/month</span></h3>
+        </div>
+        <div class="slidecontainer">
+          <input type="range" min="1" step="1" max="5" class="slider" value="3" id="slider-range">
+        </div>
+        <div class="monthly__info">
+          <p class="monthly__text"> Monthly Billing</p>
+          <label class="switch">
+            <input type="checkbox" class="checkbox__switch">
+            <span class="slider-round"></span>
+          </label>
+          <p class="yearly__text">Yearly Billing</p>
+          <span class="discount">25% discount</span>
+          <span class="discount-mb">-25%</span>
+        </div>
+       <div class="footer__info">
+         <ul>
+           <li><img src="./images/icon-check.svg" />Unlimited websites</li>
+           <li><img src="./images/icon-check.svg" />100% data ownership</li>
+           <li><img src="./images/icon-check.svg" />Email reports</li>
+         </ul>
+        <button class="btn-trial">Start my trial</button>
+       </div>
+      </div>
+  
+</section>
+</main>
+ 
+
+
+ 
+
+ 
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/parvathyvd">Parvathy Vazhoor</a>.
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
